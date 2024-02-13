@@ -5,7 +5,7 @@ function rhombusCalculateArea(){
     const area = 0.5 * base * height;
     console.log(area);
 
-    setInnerTextById('rhombus-area', area);
+    setInnerTextById('rhombus-area',area);
 }
 
 function getInputValueById(inputFieldId){
@@ -19,3 +19,4 @@ function setInnerTextById(elementId, area){
     const element = document.getElementById(elementId);
     element.innerText = area;
 }
+
